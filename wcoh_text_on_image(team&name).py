@@ -26,7 +26,7 @@ class wcoh_text_on_image_team_name:
         for font in fonts:
             cls.fonts[font.stem] = font.as_posix()
         # 기본 한글 지원 글꼴 설정
-        default_font_path = "C:/Users/user/AppData/Local/Microsoft/Windows/Fonts/Jalnan2TTF.ttf"  # 시스템에 설치된 한글 글꼴 경로
+        default_font_path = "/root/app/custom_nodes/wcoh/Jalnan2TTF.ttf"  # 시스템에 설치된 한글 글꼴 경로
         if Path(default_font_path).exists():
             cls.fonts["Jalnan2TTF"] = default_font_path
 

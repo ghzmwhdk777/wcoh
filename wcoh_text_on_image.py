@@ -26,7 +26,7 @@ class wcoh_text_on_image:
         for font in fonts:
             cls.fonts[font.stem] = font.as_posix()
         # 기본 한글 지원 글꼴 설정
-        default_font_path = "C:/Users/user/AppData/Local/Microsoft/Windows/Fonts/LG_Smart_UI-SemiBold.ttf"  # 시스템에 설치된 한글 글꼴 경로
+        default_font_path = "/root/app/custom_nodes/wcoh/LG_Smart_UI-SemiBold.ttf"  # 시스템에 설치된 한글 글꼴 경로
         if Path(default_font_path).exists():
             cls.fonts["LG_Smart_UI-SemiBold"] = default_font_path
 

@@ -18,7 +18,7 @@ class wcoh_random_image:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "folder_path": ("STRING", {"default": "C:/path/to/your/folder"}),  # 폴더 경로 입력
+                "folder_path": ("STRING", {"default": "/root/app/custom_nodes/wcoh/winter"}),  # 폴더 경로 입력
             }
         }
 
